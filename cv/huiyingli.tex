@@ -1,0 +1,116 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,left=0.95in,right=0.9in,top=0.85in,bottom=0.8in]{geometry}
+\usepackage{tabularx,enumitem}
+\usepackage[colorlinks=false,pdfborder={0 0 1},urlbordercolor={0 1 1}]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\newenvironment{cvsec}[1]{\par\vspace{10pt}\begin{list}{}{\setlength{\leftmargin}{1.15in}\setlength{\labelwidth}{1.1in}\setlength{\labelsep}{0.05in}\setlength{\topsep}{0pt}}\item[{\parbox[t]{1.1in}{\raggedright\textsc{#1}}}]}{\end{list}}
+\newcommand{\entry}[2]{\textbf{#1}\hfill\textit{#2}}
+\setlist[itemize]{leftmargin=1.5em,itemsep=2pt,topsep=4pt,parsep=0pt}
+\newcommand{\me}{\textbf{Huiying Li}}
+\begin{document}
+
+{\large\textbf{Huiying (Helen) Li}}\\[-6pt]
+\rule{\textwidth}{0.6pt}
+
+\begin{cvsec}{Contact\\Information}
+\begin{tabular}{@{}p{1.0in}l@{}}
+\textit{Address:} & 1 Hacker Way, Menlo Park, CA, United States 94025\\
+\textit{E-mail:} & huiyingli.biz@gmail.com\\
+\textit{Homepage:} & \url{https://huiying-li.github.io/}\\
+\textit{Google Scholar:} & \href{https://scholar.google.com/citations?user=9v_-m5UAAAAJ&hl=en}{\texttt{https://scholar.google.com/citations?user=9v\_-m5UAAAAJ}}
+\end{tabular}
+\end{cvsec}
+
+\begin{cvsec}{Education}
+\textbf{The University of Chicago}, Chicago, IL, United States \hfill \textit{Sept. 2017 - Mar. 2023}\\
+Ph.D. in Computer Science \hfill \textit{GPA:} \textbf{4.0/4.0}\hspace*{1.3in}\\[6pt]
+\textbf{The University of Chicago}, Chicago, IL, United States \hfill \textit{Sept. 2017 - Mar. 2020}\\
+M.S. in Computer Science\\[6pt]
+\textbf{Fudan University}, Shanghai, China \hfill \textit{Sept. 2013 - Jun. 2017}\\
+B.S. in Computer Science and Technology
+\end{cvsec}
+
+\begin{cvsec}{Awards}
+\hspace*{0.6em}$\bullet$\hspace{0.6em}Siebel Scholarship (2021)\\[2pt]
+\hspace*{0.6em}$\bullet$\hspace{0.6em}CHI Honorable Mention Award (2020)\\[2pt]
+\hspace*{0.6em}$\bullet$\hspace{0.6em}Facebook Fellowship (2020)\\[2pt]
+\hspace*{0.6em}$\bullet$\hspace{0.6em}Two Sigma Fellowship Finalist (2020)\\[2pt]
+\hspace*{0.6em}$\bullet$\hspace{0.6em}National Scholarship, China (\textbf{Top 0.2\%} in China) (2015)\\[2pt]
+\hspace*{0.6em}$\bullet$\hspace{0.6em}Outstanding Student, Fudan University (2014)
+\end{cvsec}
+
+\begin{cvsec}{Industry\\Experience}
+\textbf{AI Research Scientist}, Meta \hfill \textit{Apr. 2026 - present}
+\begin{itemize}
+\item Conduct research on personalized AGI, building AI systems that understand each user's preferences, context, and goals to deliver tailored and genuinely helpful experiences.
+\item Leverage expertise in large-scale recommendation and user modeling to advance personalization capabilities of foundation-model-based AI assistants.
+\end{itemize}
+\vspace{4pt}
+\textbf{Principal Machine Learning Scientist}, TikTok \hfill \textit{Apr. 2023 - Apr. 2026}
+\begin{itemize}
+\item Develop and optimize large-scale recommendation models to enhance the personalized content discovery experience for users on TikTok ForU page.
+\item Balance user content consumption with business objectives, optimizing user experience while aligning with organizational goals.
+\end{itemize}
+\vspace{4pt}
+\textbf{PhD Software Engineer Intern}, Meta \hfill \textit{Jun. 2022 - Sept. 2022}
+\begin{itemize}
+\item Implemented my work ``Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks.'' (USENIX Security'22) with the AI Security Team @ Meta.
+\end{itemize}
+\vspace{4pt}
+\textbf{Research Intern}, Microsoft Research \hfill \textit{Jun. 2020 - Sept. 2020}
+\begin{itemize}
+\item Worked with the Security + AI RIP group @Microsoft Research on measuring the utility of defenses against adversarial ML attacks.
+\end{itemize}
+\end{cvsec}
+
+\begin{cvsec}{Academic\\Experience}
+\textbf{Research Assistant}, SAND Lab, University of Chicago \hfill \textit{Sept. 2017 - Mar. 2023}\\
+Supervised by Prof. Ben Y. Zhao and Prof. Heather Zheng\\[8pt]
+\textbf{Teaching Assistant}, University of Chicago\\
+CMSC 23360 Advanced Networks \hfill \textit{Spring 2021}\\
+CMSC 23400 Mobile Computing \hfill \textit{Winter 2018}\\
+MPCS 52011 Introduction to Computer Systems \hfill \textit{Autumn 2017}\\[8pt]
+\textbf{Reviewer}, IEEE International Conference on Acoustics, Speech and Signal Processing, 2023\\[8pt]
+\textbf{Reviewer}, ICLR Backdoor Attacks and Defenses in Machine Learning Workshop, 2023\\[8pt]
+\textbf{Shadow Program Committee}, IEEE Symposium on Security and Privacy, 2021
+\end{cvsec}
+
+\begin{cvsec}{Research}
+\href{http://sandlab.cs.uchicago.edu/}{\textbf{SAND Lab}}, University of Chicago \hfill \textit{Sept. 2017 - Mar. 2023}\\
+\textit{Ph.D. Student Supervised by \href{http://people.cs.uchicago.edu/~ravenben/}{Prof. Ben Y. Zhao} and \href{http://people.cs.uchicago.edu/~htzheng/}{Prof. Heather Zheng}}
+\begin{itemize}
+\item \textbf{ML Security and Robustness}
+  \begin{itemize}[label=--]
+  \item Attacks and defenses for DNN backdoor attacks.
+  \item Defenses for adversarial attacks against DNNs.
+  \end{itemize}
+\item \textbf{Human Privacy Protection}
+  \begin{itemize}[label=--]
+  \item Image ``Cloaking'' for human facial privacy.
+  \item Wearable jammer against commercial microphones.
+  \end{itemize}
+\end{itemize}
+\end{cvsec}
+
+\begin{cvsec}{Publication}
+\me, Arjun Nitin Bhagoji, Ben Y Zhao, Haitao Zheng. ``Can Backdoor Attacks Survive Time-Varying Models?'' arXiv preprint arXiv:2206.04677 (2022).\\[8pt]
+\me, Shawn Shan, Emily Wenger, Jiayun Zhang, Haitao Zheng, Ben Y. Zhao. ``Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks.'' In Proceedings of \textit{The 31th USENIX Security Symposium}. Boston, MA, Aug. 2022. \textbf{USENIX Security'22}\\[8pt]
+\me, Emily Wenger, Shawn Shan, Ben Y. Zhao, Haitao Zheng. ``Piracy Resistant Watermarks for Deep Neural Networks.'' arXiv preprint arXiv:1910.01226 (2020).\\[8pt]
+Shawn Shan, Emily Wenger, Jiayun Zhang, \me, Haitao Zheng, Ben Y. Zhao. ``Fawkes: Protecting Privacy against Unauthorized Deep Learning Models.'' In Proceedings of \textit{The 29th USENIX Security Symposium}. Boston, MA, Aug. 2020. \textbf{USENIX Security'20}\\[8pt]
+Yuxin Chen*, \textbf{Huiying Li*}, Shan-Yuan Teng*, Steven Nagels, Zhijing Li, Pedro Lopes, Ben Y. Zhao, and Haitao Zheng. ``Wearable Microphone Jamming.'' In Proceedings of \textit{The CHI Conference on Human Factors in Computing Systems}. Honolulu, HI, Apr. 2020. \textbf{ACM CHI'20} (\textbf{Honorable Mention Award})\\
+\textit{* denotes equal contribution}\\[8pt]
+Yuanshun Yao, \me, Haitao Zheng, and Ben Y. Zhao. ``Latent Backdoor Attacks on Deep Neural Networks.'' In Proceedings of \textit{The 26th ACM Conference on Computer and Communication Security}. London, UK, Nov. 2019. \textbf{ACM CCS'19}\\[8pt]
+Bolun Wang, Yuanshun Yao, Shawn Shan, \me, Bimal Viswanath, Haitao Zheng, and Ben Y. Zhao. ``Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks.'' In Proceedings of \textit{The 40th IEEE Symposium on Security and Privacy}. San Francisco, CA, May 2019. \textbf{IEEE S\&P'19}
+\end{cvsec}
+
+\begin{cvsec}{Talks}
+Conference talk at USENIX Security 2022\\
+\textbf{Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks}\\[8pt]
+Conference talk at ACM CCS 2019\\
+\textbf{Latent Backdoor Attacks on Deep Neural Networks}\\[8pt]
+Invited talk at EE380 Stanford\\
+\textbf{Persistent and Unforgeable Watermarks for Deep Neural Networks}
+\end{cvsec}
+
+\end{document}
